@@ -19,26 +19,26 @@
     height: 136px;
     display: flex;
     align-items: center;
-    padding: 0px 90px;
+    padding: 0px 150px;
     margin: 0px 0px 0px -16px;
 }
 
 .logo_con {
     margin: 0px 0px 0px 16px;
-    width: 400px;
-    height: 45px;
+    width: 40%;
+    height: 100px;
 }
 
 .logo {
     background-image: url(images/Netflix_Logo.png);
     background-size: contain;
-    width: 110px;
-    height: 49px;
+    width: 210px;
+    height: 100px;
 }
 
 .right {
     margin: 0px 0px 0px -12px;
-    width: 840px;
+    width: 760px;
     height: 42px;
     display: flex;
     flex-direction: row-reverse;
@@ -50,21 +50,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 150px;
+    width: 280px;
 }
 
 .icon {
     color: white;
     border: solid rgb(116, 116, 116, 0.5) 1px 0px 1px 1px;
+    font-size: 30px;
 
 }
 
 .opt {
     background-color: transparent;
     color: white;
-    border: solid rgb(116, 116, 116, 0.5) 1px 1px 1px 0px;
+    border: solid rgba(126, 125, 125, 0.712) 1px;
     border-radius: 2px;
-    font-size: 10px;
+    font-size: 25px;
     padding: 4px;
 }
 
@@ -76,10 +77,10 @@
 .sign_button {
     background-color: rgb(235, 16, 16);
     border: none;
-    font-size: 8px;
+    font-size: 17px;
     padding: 5px;
-    width: 50px;
-    height: 21px;
+    width: 100px;
+    height: 38px;
     border-radius: 2px;
     color: white;
     font-weight: 800;
@@ -94,7 +95,7 @@
     flex-direction: column;
     width: 100%;
     padding: 0px 36px 36px 36px;
-    margin-top: 50px;
+    margin-top: 90px;
     margin-bottom: 50px;
 }
 
@@ -109,7 +110,7 @@
 .heading1,
 .heading2 {
     color: white;
-    font-size: 34px;
+    font-size: 65px;
     font-weight: 900;
     display: flex;
     align-items: center;
@@ -117,46 +118,47 @@
 
 .text1 {
     color: white;
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 600;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 50px 0px;
 }
 
 .text2 {
     color: white;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .email {
     display: flex;
     align-items: center;
-    width: 40%;
-    height: 60px;
-    padding-top: 16px;
+    width: 50%;
+    height: 65px;
+    padding-top: 30px;
 }
 
 .enter_email {
-    height: 30px;
-    color: black;
-    background-color: rgba(0, 0, 0, 0.2);
+    height: 60px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(90, 90, 90, 0.562);
     border: solid rgb(116, 116, 116, 0.5) 1px;
-    width: 60%;
+    width: 70%;
     border-radius: 2px;
-    font-size: 10px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 16px;
+    font-weight: 600;
 }
 
 .btn_text {
     color: white;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .started {
     background-color: rgb(228, 25, 25);
     border-radius: 2px;
     width: 30%;
-    height: 30px;
+    height: 60px;
     border: none;
     margin-left: 7px;
 }
@@ -165,7 +167,7 @@
 
 .section2 {
     width: 100%;
-    height: 1500px;
+    height: 1860px;
     background:
         black;
     color: white;
@@ -209,8 +211,10 @@
 
 .trending {
     position: relative;
-    top: 20px;
-    right: -100px;
+    top: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    right: -270px;
 }
 
 /* boxes of advertisement */
@@ -218,7 +222,7 @@
 .scroll {
     padding-top: 20px;
     padding-left: 30px;
-    width: 86%;
+    width: 70%;
     height: 220px;
     position: relative;
     bottom: 60px;
@@ -278,13 +282,13 @@ ul::scroll-button(right) {
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
     overflow-y: hidden;
-    width: 90%;
-    height: 92%;
+    width: 100%;
+    height: 145%;
 }
 
 .boxes {
-    width: 115px;
-    height: 150px;
+    width: 200px;
+    height: 250px;
     margin: 10px;
     background-size: cover;
     border-radius: 10px;
@@ -332,30 +336,32 @@ ul::scroll-button(right) {
 }
 
 .text3 {
-    padding-top: 30px;
+   padding-top: 40px;
     position: relative;
-    right: 280px;
-    bottom: 60px;
+    right: 407px;
+    bottom: -40px;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .containers {
     width: 80%;
-    height: 300px;
+    height: 330px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     position: relative;
-    bottom: 88px;
-    right: 20px;
+    bottom: -40px;
+    right: -10px;
 }
 
 .t_box {
     list-style: none;
-    font-size: 10px;
-    width: 180px;
-    height: 200px;
+    font-size: 25px;
+    width: 220px;
+    height: 270px;
     background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
-    margin: 20px;
+    margin: 0px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -363,51 +369,51 @@ ul::scroll-button(right) {
 }
 
 .headings {
-    font-size: 12px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 20px;
     font-weight: 800;
 }
 
 .inner {
     padding: 10px;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .icons {
-    padding-left: 73px;
-    padding-top: 20px;
-    font-size: 35px;
+    padding-left: 80px;
+    padding-top: 25px;
+    font-size: 50px;
     color: rgba(229, 9, 20, 0.7);
 }
 
 /* feedback */
 .head {
-    font-size: 20px;
+  font-size: 25px;
     position: relative;
-    right: -1px;
+    right: -10px;
     top: -20px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .feedback {
-    width: 80%;
-    height: 180px;
+    width: 70%;
+    height: 400px;
     position: relative;
-    top: -80px;
+    top: 70px;
 }
 
 .que {
     list-style: none;
-    font-size: 14px;
+    font-size: 15px;
     background-color: rgba(44, 43, 43, 0.8);
-    padding: 13px;
+    padding: 15px;
     margin: 5px;
     display: flex;
     justify-content: space-between;
 }
 
 .que_text {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .fa-plus {
@@ -416,27 +422,27 @@ ul::scroll-button(right) {
 }
 
 .email2 {
-    display: flex;
+   display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 80px;
-    padding-top: 120px;
+    padding-top: 150px;
 }
 
 .ready {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 500;
-    top: 90px;
+    top: 100px;
     position: relative;
 }
 
 .enter_email2 {
-    height: 35px;
+    height: 50px;
     color: black;
     background-color: rgba(0, 0, 0, 0.2);
     border: solid rgb(116, 116, 116, 0.5) 1px;
-    width: 40%;
+    width: 50%;
     border-radius: 2px;
     font-size: 15px;
     padding: 10px;
@@ -444,15 +450,15 @@ ul::scroll-button(right) {
 
 .btn_text2 {
     color: white;
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .started2 {
-    background-color: rgb(228, 25, 25);
+   background-color: rgb(228, 25, 25);
     border-radius: 2px;
-    width: 20%;
-    height: 35px;
+    width: 19%;
+    height: 50px;
     border: none;
     margin-left: 7px;
 }
@@ -464,15 +470,15 @@ ul::scroll-button(right) {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 120px;
 }
 
 .contact {
     padding: 15px;
     position: relative;
-    right: 248px;
-    top: -30px;
-    font-size: 14px;
+    right: 390px;
+    top: -60px;
+    font-size: 20px;
     color: rgba(169, 168, 168, 1);
     font-weight: 500;
 }
@@ -480,15 +486,15 @@ ul::scroll-button(right) {
 .lists {
     display: -webkit-inline-box;
     position: relative;
-    top: -20px;
+    top: -35px;
 }
 
 .li1,
 .li2,
 .li3,
 .li4 {
-    padding: 0px 60px;
-    font-size: 10px;
+    padding: 0px 110px;
+    font-size: 12px;
     color: rgb(150, 150, 150);
     font-weight: 500;
 }
@@ -501,19 +507,19 @@ ul::scroll-button(right) {
 /* ending2 */
 
 .lang2 {
-    padding: 10px;
+    padding: 15px;
     margin: 2px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 120px;
+    width: 150px;
     position: relative;
-    left: -307px;
+    left: -480px;
 }
 
 .icon2 {
     color: white;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .opt2 {
@@ -521,7 +527,7 @@ ul::scroll-button(right) {
     color: white;
     border: solid rgb(116, 116, 116, 0.5) 1px 1px 1px 0px;
     border-radius: 2px;
-    font-size: 10px;
+    font-size: 15px;
     padding: 4px;
 }
 
@@ -533,16 +539,16 @@ ul::scroll-button(right) {
 .enging_text1,
 .enging_text2 {
     position: relative;
-    left: -328px;
-    font-size: 10px;
+    left: -507px;
+    font-size: 15px;
     color: rgba(169, 168, 168, 1);
 }
 
 .enging_text2 {
     position: relative;
-    left: -163px;
+    left: -260px;
     padding: 10px 5px;
-    font-size: 10px;
+    font-size: 15px;
     color: rgba(169, 168, 168, 1);
 }
 
